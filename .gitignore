@@ -1,0 +1,5 @@
+*.DS_Store
+Ferrare/bin/*
+FerrareExtractors/bin/*
+FerrareGenerators/bin/*
+Genesis/bin/*

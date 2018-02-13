@@ -1,0 +1,124 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>CasodeUso_Login</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">CasodeUso_Login</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>http://www.ufpi.br/modelo13/admin/index.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>login</td>
+	<td>testador13</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>senha</td>
+	<td>teste13</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>Submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Sair</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//a[contains(@href, 'alt_senha.php')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>senha</td>
+	<td>teste13</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>senha3</td>
+	<td>nova123</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>senha4</td>
+	<td>nova123</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>Submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/modelo13/admin/index.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>login</td>
+	<td>testador13</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>senha</td>
+	<td>nova123</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>Submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Sair</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//a[contains(@href, 'alt_senha.php')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>senha</td>
+	<td>nova123</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>senha3</td>
+	<td>teste13</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>senha4</td>
+	<td>teste13</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>Submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Login</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
